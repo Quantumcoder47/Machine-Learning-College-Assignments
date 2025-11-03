@@ -1,0 +1,17 @@
+# Minimal requirements for running the notebooks in this repository
+# Pin versions locally if you need exact reproducibility. These are unpinned to be compatible
+# across environments; if you want, I can pin to specific versions available in your environment.
+
+jupyter
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+statsmodels
+nbformat
+nbconvert
+# Optional: used by some notebooks / deep-learning examples
+tensorflow
+keras
