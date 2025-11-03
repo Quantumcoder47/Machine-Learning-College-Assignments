@@ -50,31 +50,47 @@ Note: specific notebooks might import additional libraries; see the top cells of
 
 ## Folder / Assignment mapping (found in repository)
 
+Each assignment folder contains a short `README.md`, a `model.ipynb` notebook, and one or more datasets (CSV) where applicable. Quick mapping below — open the assignment folder or its `README.md` for details and column headers.
+
 01_Regression Models
-- Assignment 1A — `model.ipynb` — dataset: `fuel_consumption_dataset.csv`
-- Assignment 1B — `model.ipynb` — dataset: `used_cars_dataset.csv`
-- Assignment 2 — `model.ipynb` — dataset: `housing_price_dataset.csv`
-- Assignment 3 — `model.ipynb` — dataset: `salary_data.csv`
-- Assignment 4 — `model.ipynb` — dataset: `china_gdp.csv`
+- Assignment 1A — Linear Regression for CO2 Emission Prediction
+   - Files: `model.ipynb`, `fuel_consumption_dataset.csv`, `README.md`
+- Assignment 1B — Linear Regression for Car Price Prediction
+   - Files: `model.ipynb`, `used_cars_dataset.csv`, `README.md`
+- Assignment 2 — Simple House Price Prediction
+   - Files: `model.ipynb`, `housing_price_dataset.csv`, `README.md`
+- Assignment 3 — Linear Regression (Gradient Descent from Scratch)
+   - Files: `model.ipynb`, `salary_data.csv`, `README.md`
+- Assignment 4 — Non-Linear Regression: China GDP Prediction
+   - Files: `model.ipynb`, `china_gdp.csv`, `README.md`
 
 02_Classification Models
-- Assignment 5 — `model.ipynb` — dataset: `samples_cancer.csv`
-- Assignment 6 — `model.ipynb` — dataset: `teleCust.csv`
-- Assignment 7 — `model.ipynb` — dataset: `drug.csv`
-- Assignment 8 — `model.ipynb` — dataset: `pima-indians-diabetes.data.csv`
-- Assignment 9 — `model.ipynb` — dataset: `samples_cancer.csv`
+- Assignment 5 — Logistic Regression: Cancer Classification
+   - Files: `model.ipynb`, `samples_cancer.csv`, `README.md`
+- Assignment 6 — KNN: Telecommunications Customer Classification
+   - Files: `model.ipynb`, `teleCust.csv`, `README.md`
+- Assignment 7 — Drug Classification
+   - Files: `model.ipynb`, `drug.csv`, `README.md`
+- Assignment 8 — Naive Bayes: Diabetes Prediction
+   - Files: `model.ipynb`, `pima-indians-diabetes.data.csv`, `README.md`
+- Assignment 9 — SVM Cancer Classification (Kernels Comparison)
+   - Files: `model.ipynb`, `samples_cancer.csv`, `README.md`
 
 03_Neural Networks
-- Assignment 10 — `model.ipynb` — dataset: `pima-indians-diabetes.data.csv`
-- Assignment 11 — `model.ipynb`
+- Assignment 10 — Classification Algorithms Comparison (Diabetes)
+   - Files: `model.ipynb`, `pima-indians-diabetes.data.csv`, `README.md`
+- Assignment 11 — XOR Neural Network / Perceptron Examples
+   - Files: `model.ipynb`, `README.md`
 
 04_Clustering
-- Assignment 12 — `model.ipynb` — dataset: `iris.csv`
-- Assignment 13 — `model.ipynb` — dataset: `Cust_Segmentation.csv`
-- Assignment 14 — `model.ipynb` — dataset: `Vehicle.csv`
-- Assignment 15 — `model.ipynb` — dataset: `WeatherStation.csv`
-
-> If you add/remove datasets or notebooks, update this README accordingly.
+- Assignment 12 — Iris Classification / Neural Network Experiments
+   - Files: `model.ipynb`, `iris.csv`, `README.md`
+- Assignment 13 — Customer Segmentation (Clustering)
+   - Files: `model.ipynb`, `Cust_Segmentation.csv`, `README.md`
+- Assignment 14 — Hierarchical Clustering for Vehicle Grouping
+   - Files: `model.ipynb`, `Vehicle.csv`, `README.md`
+- Assignment 15 — DBSCAN Weather Station Clustering
+   - Files: `model.ipynb`, `WeatherStation.csv`, `README.md`
 
 ## Dataset information
 
@@ -145,4 +161,8 @@ After working through these notebooks you should be able to:
 - Consider adding a `requirements.txt` or `environment.yml` (conda) for reproducibility.
 - Add tests or a small runner script if you want programmatic evaluation across assignments.
 
+## Contact
+
+- Repository owner & maintainer: `Quantumcoder47 aka Karan Prabhat` — https://github.com/Quantumcoder47
+- Email : prabhatkaran47@gmail.com
 ---
