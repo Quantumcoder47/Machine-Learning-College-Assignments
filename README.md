@@ -28,7 +28,8 @@ This repository groups together college assignments for machine learning topics.
 
 Each assignment folder typically contains:
 - `model.ipynb` — the Jupyter notebook with the solution and explanation
-- one or more `.csv` datasets used in the notebook
+- `.csv`— datasets used in the notebook
+- `README.md` — contains a one-paragraph summary, dataset filename and column headers, run instructions, and short notes.
 
 ## Technology used
 
